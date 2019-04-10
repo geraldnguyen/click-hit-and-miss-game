@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+td {
+  border: 1px solid gray;
+  padding: 10px;
+  width: 80px;
+  height: 80px;
+  /* background-color: blue; */
+}
+
+#gamestat {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.stat {
+  width: 100%;
+  display: block;
+}
+
+.stat span:first-child {
+  font-weight: bold;
+  width: 120px;
+  display: inline-block;
+}
+
+.--mark {
+  background-color: orange;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+}
